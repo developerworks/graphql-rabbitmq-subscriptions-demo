@@ -1,0 +1,1 @@
+# graphql-rabbitmq-subscriptions-demo
