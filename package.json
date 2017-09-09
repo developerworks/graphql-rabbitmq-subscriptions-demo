@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "debug": "nodemon -d 1 -q -w src -i logs --exec './node_modules/.bin/babel-node --harmony --inspect ./src/server.js'",
-    "watch": "nodemon -d 1 -q -w src -i logs --exec './src/server.js -x babel-node'"
+    "watch": "nodemon -d 1 -q -w src -i logs --exec './node_modules/.bin/babel-node ./src/server.js'"
   },
   "dependencies": {
     "@cdm-logger/server": "^3.0.2",
